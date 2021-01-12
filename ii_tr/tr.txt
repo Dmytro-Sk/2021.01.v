@@ -1,0 +1,17 @@
+https://www.upwork.com/jobs/~013cb27752cf9cac43
+
+We want to scrape https://www.hemnet.se/ for data regarding:
+
+Appartments/Lägenheter;
+- Price information
+- Square meters
+- Balcony (Yes/No)
+- City
+
+In a CSV friendly format, with correct handled numbers format.
+
+Example URL:
+https://www.hemnet.se/bostader?item_types%5B%5D=bostadsratt&keywords=balkong
+
+See an example in image.
+
