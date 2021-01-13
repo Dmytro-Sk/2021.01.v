@@ -79,7 +79,7 @@ class Converter:
 """Put and initial data"""
 
 data = {
-    'spiders_names': ['vrisko_gr_companies', 'vrisko_gr_urls'],
+    'spiders_names': ['hemnet_se'],
 }
 
 con = Converter(data)

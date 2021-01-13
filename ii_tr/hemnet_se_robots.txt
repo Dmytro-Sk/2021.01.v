@@ -1,0 +1,7 @@
+# Kul att du hittat hit!
+# Vill du också jobba på en av Sveriges största sajter med miljontals unika besökare?
+# Gör en spontanansökan på https://jobba.hemnet.se/
+
+User-agent: *
+
+Sitemap: https://www.hemnet.se/sitemap.xml

@@ -6,9 +6,9 @@ def robots_txt(domain, project_name):
     r = Request(f'https://www.{domain}/robots.txt', headers={'User-Agent': USER_AGENT})
     data = urlopen(r).read()
 
-    with open(f'../{project_name}_robots.txt', 'w') as f:
+    with open(f'../{project_name}_robots.txt', 'w', encoding='utf-8') as f:
         f.write(data.decode('utf-8'))
 
 
-domain = 'flo.com.tr'
+domain = 'hemnet.se'
 robots_txt(domain=domain, project_name=domain.replace('.', '_'))

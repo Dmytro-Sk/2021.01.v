@@ -7,6 +7,8 @@ import scrapy
 
 
 class HemnetSeItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    adress = scrapy.Field()
+    price = scrapy.Field()
+    square_meters = scrapy.Field()
+    balcony = scrapy.Field()
+    city = scrapy.Field()

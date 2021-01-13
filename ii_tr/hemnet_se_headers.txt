@@ -1,0 +1,45 @@
+------------------ GET LOCATORS ------------------
+
+ADRESS = ''
+PRICE = ''
+SQUARE_METERS = ''
+BALCONY = ''
+CITY = ''
+
+
+-------------- GET CUSTOM SETTINGS ---------------
+
+'adress',
+'price',
+'square_meters',
+'balcony',
+'city',
+
+
+--------------- GET PARSE ELEMENTS ---------------
+
+adress = response.xpath(Locators.ADRESS).get()
+price = response.xpath(Locators.PRICE).get()
+square_meters = response.xpath(Locators.SQUARE_METERS).get()
+balcony = response.xpath(Locators.BALCONY).get()
+city = response.xpath(Locators.CITY).get()
+
+
+------------ GET PARSE ITEMS ELEMENTS ------------
+
+items['adress'] = adress
+items['price'] = price
+items['square_meters'] = square_meters
+items['balcony'] = balcony
+items['city'] = city
+
+
+------------------- GET ITEMS --------------------
+
+adress = scrapy.Field()
+price = scrapy.Field()
+square_meters = scrapy.Field()
+balcony = scrapy.Field()
+city = scrapy.Field()
+
+
