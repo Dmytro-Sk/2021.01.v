@@ -10,5 +10,5 @@ class HemnetSeItem(scrapy.Item):
     adress = scrapy.Field()
     price = scrapy.Field()
     square_meters = scrapy.Field()
-    balcony = scrapy.Field()
+    # balcony = scrapy.Field()
     city = scrapy.Field()
